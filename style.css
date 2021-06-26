@@ -1,1 +1,251 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+  font-weight: bold;
+}
+.container {
+  height: 2000px;
+  margin: 0 300px;
+}
+.banner {
+  background-color: #1e3841;
+  height: 2000px;
+}
+.header {
+  height: 9%;
+  position: relative;
+}
+.top {
+  position: absolute;
+  top: 50px;
+  left: 260px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+.logo {
+  background-color: skyblue;
+  padding: 20px 15px;
+  border-radius: 50%;
+  margin: 2px;
+}
+.logo i {
+  font-size: 35px;
+}
+.topside {
+  position: absolute;
+  top: 40px;
+  left: 380px;
+}
+.topside p {
+  font-weight: bold;
+}
+.topside p:first-child {
+  color: orangered;
+  font-size: 50px;
+}
+.topside p:last-child {
+  color: white;
+  font-size: 17px;
+}
+.cards {
+  height: 1815px;
+}
+.firstcard {
+  height: 15%;
+  margin: 0px 50px 20px 50px;
+  position: relative;
+}
+.firstcard_firstcolumn {
+  width: 50%;
+  height: 100%;
+  background-color: orange;
+  position: absolute;
+  text-align: center;
+  padding-top: 40px;
+}
+.firstcard_firstcolumn i:nth-child(3) {
+  color: red;
+}
+.para {
+  color: whitesmoke;
+  font-size: 13px;
+}
+.big1 {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+.big2 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.firstcard_secondcolumn {
+  width: 50%;
+  height: 100%;
+  background-color: skyblue;
+  float: right;
+  text-align: center;
+  padding-top: 40px;
+}
+.para a {
+  color: white;
+}
+.secondcard {
+  height: 13%;
+  margin: 0px 50px 20px 50px;
+  background-color: red;
+}
+.secondcard_heading_icons {
+  position: relative;
+  height: 50%;
+}
+.secondcard_heading {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  padding: 30px 0px 0px 35px;
+}
+.secondcard_icons {
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding: 40px 0px 0px 20px;
+}
+.secondcard_icons i:nth-child(2) {
+  padding-left: 30px;
+}
+.secondcard_icons i:nth-child(3) {
+  padding-left: 30px;
+}
+.secondcard_iconpara1 {
+  color: white;
+  font-size: 20px;
+}
+.secondcard_iconpara2 {
+  color: white;
+  font-size: 20px;
+}
+.secondcard_iconpara3 {
+  color: white;
+  font-size: 20px;
+}
+.secondcard_para {
+  padding-left: 35px;
+  height: 42%;
+}
+.thirdcard {
+  height: 12%;
+  margin: 0px 50px 20px 50px;
+  background-color: skyblue;
+  position: relative;
+}
+.thirdcard_firstcolumn {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  padding: 25px 10px 20px 30px;
+}
 
+.warning_icon {
+  color: black;
+  margin-left: 12px;
+}
+.thirdcard_secondcolumn {
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding: 67px 0px 20px 20px;
+}
+.fourthcard {
+  height: 15%;
+  margin: 0px 50px 20px 50px;
+  position: relative;
+}
+.fourthcard_firstcolumn {
+  width: 50%;
+  height: 100%;
+  background-color: orangered;
+  position: absolute;
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+}
+.fourthcard_firstcolumn i {
+  color: orange;
+}
+.fourthcard_secondcolumn {
+  width: 50%;
+  height: 100%;
+  background-color: orange;
+  float: right;
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+}
+.fourthcard_secondcolumn i {
+  color: orangered;
+}
+.fifthcard {
+  height: 10%;
+  margin: 0px 50px 20px 50px;
+  background-color: skyblue;
+  position: relative;
+}
+.fifthcard_text {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  padding: 40px;
+}
+.fifthcard_tv_icon {
+  float: right;
+  width: 30%;
+  height: 100%;
+  padding: 50px 0px 20px 30px;
+}
+.sixthcard {
+  height: 10%;
+  margin: 0px 50px 20px 50px;
+  background-color: orange;
+  position: relative;
+}
+.sixthcard p {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  padding: 40px 30px 10px 40px;
+}
+.sixthcard i {
+  float: right;
+  width: 30%;
+  height: 100%;
+  padding: 60px 5px 20px 0px;
+  color: red;
+}
+
+.seventhcard {
+  height: 15%;
+  margin: 0px 50px 20px 50px;
+  position: relative;
+}
+.seventhcard_firstcolumn {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-color: skyblue;
+  text-align: center;
+  padding-top: 40px;
+}
+.seventhcard_secondcolumn {
+  width: 50%;
+  height: 100%;
+  background-color: orangered;
+  float: right;
+  text-align: center;
+  padding-top: 40px;
+}
