@@ -11,7 +11,8 @@ a {
 }
 .container {
   height: 2000px;
-  margin: 0 300px;
+  margin: 0 auto;
+  max-width: 900px;
 }
 .banner {
   background-color: #1e3841;
